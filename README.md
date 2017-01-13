@@ -23,3 +23,8 @@ The files are:
 <strong>Note</strong>: As described in the paper, Wikipedia concepts in this data are all extracted with the help of [Wikipedia-miner](https://github.com/dnmilne/wikipediaminer). You can also try other Wikification/Entity linking methods to extract Wiki concepts from course descriptions. In that case, even though our labeled prerequisite pairs perhaps will not cover all candidate pairs, we believe this annotation still covers most of them and can save you lots of time when collecting prerequisite labels.
 
 If you have any problems, please contact Chen Liang at <cul226@ist.psu.edu>.
+
+## License
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). 
+
+![Alt](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
