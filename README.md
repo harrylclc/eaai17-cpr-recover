@@ -9,7 +9,11 @@ This is data used in this publication:
 
 The files are:
 
-- *cs_courses.csv*: These are CS-related course information. Each line is formatted as "\<Course_id\>,\<Course_description\>". Note the course titles are located at the begining of the description.
+- *cs_courses.csv*: These are CS-related course information collected from 11 U.S
+universities (Carnegie Mellon University, Stanford University, the Massachusetts Institute
+of Technology, Princeton University, the California Institute of Technology, Purdue University,
+University of Maryland, Michigan State University, Pennsylvania State University, University of
+Illinois, and University of Iowa). Each line is formatted as "\<Course_id\>,\<Course_description\>". Note the course titles are located at the begining of the description.
 
 - *cs_edges.csv*: There are course prerequisite information. Each line "\<course_1\>,\<course_2\>" represents \<course_2\> is a prerequisite for \<course_1\>.
 
