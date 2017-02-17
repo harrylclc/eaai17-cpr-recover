@@ -5,7 +5,7 @@ Release 1, 2017-01-10
 This is data used in this publication:
 > Recovering Concept Prerequisite Relations from University Course Dependencies. 
 > Chen Liang, Jianbo Ye, Zhaohui Wu, Bart Pursel, and C. Lee Giles.
-> In the 7th Symposium on Educational Advances in Artifical Intelligence, 2017.
+> In the 7th Symposium on Educational Advances in Artificial Intelligence, 2017.
 
 The files are:
 
