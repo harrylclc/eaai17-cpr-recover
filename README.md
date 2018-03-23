@@ -2,12 +2,9 @@
 
 Release 1, 2017-01-10
 
-This is data used in this publication:
-> Recovering Concept Prerequisite Relations from University Course Dependencies. 
-> Chen Liang, Jianbo Ye, Zhaohui Wu, Bart Pursel, and C. Lee Giles.
-> In the 7th Symposium on Educational Advances in Artificial Intelligence, 2017.
+This is data used in "Recovering Concept Prerequisite Relations from University Course Dependencies" (Liang et al., 2017)
 
-The files are:
+## Data Description
 
 - *cs_courses.csv*: These are CS-related course information collected from 11 U.S
 universities (Carnegie Mellon University, Stanford University, the Massachusetts Institute
@@ -25,6 +22,18 @@ Illinois, and University of Iowa). Each line is formatted as "\<Course_id\>,\<Co
 - *cs_preqs.csv*: These are concept prerequisite pairs exported from the above annotation by using majority vote. Each line "\<Concept_A\>,\<Concept_B\>" represents that B is a prerequisite of A.
 
 <strong>Note</strong>: As described in the paper, Wikipedia concepts in this data are all extracted with the help of [Wikipedia-miner](https://github.com/dnmilne/wikipediaminer). You can also try other Wikification/Entity linking methods to extract Wiki concepts from course descriptions. In that case, even though our labeled prerequisite pairs perhaps will not cover all candidate pairs, we believe this annotation still covers most of them and can save you lots of time when collecting prerequisite labels.
+
+## Citation
+Please cite the following paper if you use this data.
+```
+@inproceedings{liang2017recovering,
+  title={Recovering Concept Prerequisite Relations from University Course Dependencies.},
+  author={Liang, Chen and Ye, Jianbo and Wu, Zhaohui and Pursel, Bart and Giles, C Lee},
+  booktitle={AAAI},
+  pages={4786--4791},
+  year={2017}
+}
+```
 
 If you have any problems, please contact Chen Liang at <cul226@ist.psu.edu>.
 
